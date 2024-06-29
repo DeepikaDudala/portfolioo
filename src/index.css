@@ -1,0 +1,169 @@
+/* Overall page style */
+body {
+	background-color: #faf9f5;
+}
+
+/* HomePage container */
+.home-page {
+	position: relative;
+	margin-top: 50px;
+	padding: 20px;
+	z-index: 1; /* Ensure it is above the background lines */
+}
+
+/* Heading styles */
+.heading-text {
+	font-weight: 900;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 2rem 0;
+}
+
+/* Highlight styles */
+.name-highlight {
+	color: #4584a3;
+}
+
+/* Profile picture styles */
+.profile-picture {
+	background: url('./assets/girlLap.jpg') no-repeat center center;
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-bottom: 10px solid black;
+	border-right: 8px solid black;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Social icons */
+
+/* Custom Navbar styles */
+.custom-navbar {
+	margin-top: 25px;
+	border: 4px solid black;
+	border-top: 2px solid black;
+	border-radius: 50px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+	background-color: #fff;
+}
+
+.custom-navbar .navbar-nav {
+	display: flex;
+	justify-content: center;
+}
+
+.custom-navbar .nav-link {
+	margin: 2px 30px;
+}
+
+.custom-navbar .navbar-toggler {
+	border: none;
+	outline: pink;
+}
+
+.hamburger-icon {
+	margin: 2px;
+}
+
+/* Danfo head */
+.danfo-head {
+	font-family: 'Danfo', serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	font-variation-settings: 'ELSH' 0;
+	color: #ffd929;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
+}
+
+/* Heading text */
+.heading-text div {
+	color: white;
+	background-color: #006b7b;
+	margin: auto;
+	width: fit-content;
+	margin-top: 1.2rem;
+}
+
+/* Background elements for large screens */
+@media (min-width: 1024px) {
+	.home-page::before,
+	.home-page::after {
+		content: '';
+		position: absolute;
+		z-index: -1; /* Behind the content */
+		border-radius: 40px;
+	}
+
+	.home-page::before {
+		width: 350px;
+		height: 80px;
+		background-color: #ffd929;
+		opacity: 0.8;
+
+		top: 40%;
+		right: 17%;
+		transform: rotate(-40deg);
+	}
+
+	.home-page::after {
+		width: 350px;
+		height: 80px;
+		background-color: #006b7b;
+		opacity: 0.6;
+		right: 9%;
+		top: 45%;
+		transform: rotate(-40deg);
+	}
+	.black-line {
+		transform: rotate(-2deg);
+	}
+}
+@media (max-width: 750px) {
+	.home-page::before,
+	.home-page::after {
+		content: '';
+		position: absolute;
+		z-index: -1; /* Behind the content */
+		border-radius: 40px;
+	}
+
+	.home-page::before {
+		width: 90%;
+		height: 60px;
+		background-color: #ffd929;
+		opacity: 0.8;
+		top: 80%;
+		left: 5%;
+		transform: rotate(-30deg);
+	}
+
+	.home-page::after {
+		width: 90%;
+		height: 60px;
+		background-color: #006b7b;
+		opacity: 0.5;
+		left: 5%;
+		top: 70%;
+		transform: rotate(-30deg);
+	}
+}
+.social-icons a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 1.1rem;
+}
+.black-line {
+	background-color: #000;
+	margin-top: 5%;
+	padding: 15px 4px;
+}
