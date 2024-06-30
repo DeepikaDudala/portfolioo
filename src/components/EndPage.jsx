@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 function EndPage() {
 	return (
@@ -11,7 +10,7 @@ function EndPage() {
 				<Row className="mb-4 justify-content-center">
 					<Col xs="auto">
 						<a href="mailto:sahithidudala@gmail.com" className="text-white me-4">
-							<FontAwesomeIcon icon={faEnvelope} size="2x" />
+							<AiOutlineMail size={24} />
 						</a>
 					</Col>
 					<Col xs="auto">
@@ -19,7 +18,7 @@ function EndPage() {
 							href="https://www.instagram.com/_sahithiprasad/"
 							className="text-white me-4"
 						>
-							<FontAwesomeIcon icon={faInstagram} size="2x" />
+							<FaInstagram size={24} />
 						</a>
 					</Col>
 					<Col xs="auto">
@@ -27,7 +26,7 @@ function EndPage() {
 							href="https://www.linkedin.com/in/deepika-siva-sahithi-dudala/"
 							className="text-white"
 						>
-							<FontAwesomeIcon icon={faLinkedin} size="2x" />
+							<FaLinkedin size={24} />
 						</a>
 					</Col>
 				</Row>
