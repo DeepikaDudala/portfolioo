@@ -120,9 +120,10 @@ const ProjectsPage = () => {
 								Projects
 							</span>
 						</h1>
-						<p className="ms-5">
-							Here are some of the projects I have worked on. Click on the links to
-							view the Live and GitHub Repository.
+						<p className="text-center">
+							Explore my diverse web projects, from secure management systems to
+							creative apps and interactive games, each with live demos and GitHub
+							repositories.
 						</p>
 					</Col>
 					<Col lg={4} className="text-center mt-3">

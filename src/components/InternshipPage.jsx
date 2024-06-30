@@ -6,7 +6,7 @@ function InternshipPage() {
 	return (
 		<div id="intern">
 			<Container className="mt-5 intern-page">
-				<Row className="my-3 ms-5 me-5 justify-content-end">
+				<Row className="my-3 ms-4 me-5 justify-content-end">
 					<Col lg={6}>
 						<h1 className="text-2xl font-bold heading-text lh-base">
 							Work{' '}
@@ -41,7 +41,11 @@ function InternshipPage() {
 							</dl>
 						</p>
 					</Col>
-					<Col lg={3} className="ms-5 justify-content-center rounded align-items-center">
+					<Col
+						lg={3}
+						xs={9}
+						className="ms-5 justify-content-center rounded align-items-center"
+					>
 						<img
 							src="https://media.licdn.com/dms/image/D560BAQHg7pZyuzGP7Q/company-logo_200_200/0/1719258032621/eficens_it_logo?e=2147483647&v=beta&t=_jxP1Nwle-nqQY5d-k_byyEhOHgtTb2vKm6WQwFzzZU"
 							alt={` icon`}

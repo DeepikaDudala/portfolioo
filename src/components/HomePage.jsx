@@ -28,7 +28,7 @@ const HomePage = () => {
 	return (
 		<div id="home">
 			<Container className="text-center home-page">
-				<Row className="justify-content-center align-items-center ms-4">
+				<Row className="justify-content-center align-items-center">
 					<Col md={6}>
 						<h1 className="text-3xl font-bold heading-text">
 							Hello, I'm{' '}

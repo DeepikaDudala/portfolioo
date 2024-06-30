@@ -23,7 +23,7 @@ function CertificatesPage() {
 	return (
 		<div id="certificate">
 			<Container className="mt-5 cert-page">
-				<Row className="my-3 ms-4 me-5 justify-content-end">
+				<Row className="my-3 ms-3 me-5 justify-content-end">
 					<Col lg={6}>
 						<h1 className="text-2xl font-bold heading-text lh-base">
 							Course{' '}
@@ -39,8 +39,9 @@ function CertificatesPage() {
 				<Row className="mt-3 justify-content-center">
 					<Col lg={4} className="my-4 d-flex align-items-center justify-content-center">
 						<p className="text-center">
-							Here are some of the certifications I have completed. Showcasing my
-							achievements and commitment to continuous learning.
+							Here are some certifications I've completed, showcasing my achievements
+							and commitment to continuous learning. These certificates reflect my
+							dedication to expanding skills and knowledge in relevant fields.
 						</p>
 					</Col>
 					<Col lg={7} className="mb-4">
