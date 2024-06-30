@@ -1,6 +1,7 @@
 /* Overall page style */
 body {
-	background-color: #faf9f5;
+	background-color: #c0eef86e; /* Light blue */
+	/* background-color: #ffd82919; Yellow */
 }
 
 /* HomePage container */
@@ -28,6 +29,18 @@ body {
 /* Profile picture styles */
 .profile-picture {
 	background: url('./assets/girlLap.jpg') no-repeat center center;
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-bottom: 10px solid black;
+	border-right: 8px solid black;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.contact-picture {
+	background: url('./assets/girlContact.png') no-repeat center center;
 	background-size: cover;
 	width: 250px;
 	height: 250px;
@@ -110,7 +123,7 @@ body {
 		opacity: 0.8;
 
 		top: 40%;
-		right: 17%;
+		right: 15%;
 		transform: rotate(-40deg);
 	}
 
@@ -119,8 +132,8 @@ body {
 		height: 80px;
 		background-color: #006b7b;
 		opacity: 0.6;
-		right: 9%;
-		top: 45%;
+		right: 6%;
+		top: 43%;
 		transform: rotate(-40deg);
 	}
 	.black-line {
@@ -137,7 +150,7 @@ body {
 	}
 
 	.home-page::before {
-		width: 90%;
+		width: 95%;
 		height: 60px;
 		background-color: #ffd929;
 		opacity: 0.8;
@@ -166,4 +179,92 @@ body {
 	background-color: #000;
 	margin-top: 5%;
 	padding: 15px 4px;
+}
+.pro-card {
+	border: 3px solid black;
+	border-bottom: 4px solid black;
+}
+
+@media (min-width: 1024px) {
+	.intern-page,
+	.project-page,
+	.contact-page,
+	.cert-page {
+		position: relative;
+	}
+
+	.intern-page::before,
+	.project-page::before,
+	.contact-page::before,
+	.cert-page::before {
+		content: '';
+		position: absolute;
+		top: 0;
+
+		width: 70%;
+		height: 100%;
+		z-index: -1; /* Place the background behind the content */
+		background-image: radial-gradient(circle, #f3fdff 2px, transparent 2px),
+			radial-gradient(circle, #f5fafb 4px, transparent 1px);
+		background-size: 20px 20px;
+		border-radius: 50%;
+	}
+	.intern-page::before,
+	.cert-page::before {
+		right: 0;
+	}
+
+	.intern-page::before,
+	.cert-page::before {
+		background-color: #006b7b;
+		opacity: 0.07;
+	}
+
+	.project-page::before,
+	.contact-page::before {
+		background-color: #ffd929;
+		opacity: 0.1;
+	}
+}
+
+@media (max-width: 750px) {
+	.intern-page,
+	.project-page,
+	.contact-page,
+	.cert-page {
+		position: relative;
+	}
+
+	.intern-page::before,
+	.project-page::before,
+	.contact-page::before,
+	.cert-page::before {
+		content: '';
+		position: absolute;
+		top: 0;
+
+		width: 60%;
+		height: 25%;
+		z-index: -1;
+		background-image: radial-gradient(circle, #f3fdff 2px, transparent 2px),
+			radial-gradient(circle, #f5fafb 4px, transparent 1px);
+		background-size: 20px 20px;
+		border-radius: 50%;
+	}
+	.intern-page::before,
+	.cert-page::before {
+		right: 0;
+	}
+
+	.intern-page::before,
+	.cert-page::before {
+		background-color: #006b7b;
+		opacity: 0.07;
+	}
+
+	.project-page::before,
+	.contact-page::before {
+		background-color: #ffd929;
+		opacity: 0.1;
+	}
 }

@@ -7,35 +7,35 @@ function BlackLine() {
 			<Row className="social-icons ">
 				<Col md={3} className="text-center">
 					<a
-						href="#youtube"
+						href="https://www.naukri.com/code360/profile/21K61A0538"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
 					>
-						YouTube
+						Coding Ninjas
 					</a>
 				</Col>
 				<Col md={3} className="text-center">
 					<a
-						href="#pinterest"
+						href="https://www.linkedin.com/in/deepika-siva-sahithi-dudala/"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
 					>
-						Pinterest
+						LinkedIn
 					</a>
 				</Col>
 
 				<Col md={3} className="text-center">
 					<a
-						href="#behance"
+						href="https://github.com/DeepikaDudala"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
 					>
-						Behance
+						GitHub
 					</a>
 				</Col>
 				<Col md={3} className="text-center">
 					<a
-						href="#google"
+						href="https://www.codechef.com/users/deepikadudala"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
 					>
-						Google
+						CodeChef
 					</a>
 				</Col>
 			</Row>
