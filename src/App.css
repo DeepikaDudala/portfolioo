@@ -34,8 +34,8 @@
 }
 
 .skill-card img {
-	width: 100px; /* Adjust size as needed */
-	height: 100px;
+	width: 70px;
+	height: 70px;
 	object-fit: cover;
 	border-radius: 50%;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

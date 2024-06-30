@@ -24,7 +24,7 @@ const projects = [
 		icon: hms,
 		title: 'HealthEase',
 		description:
-			"Hospital Management Web App which stores Patients's records, Make appointments and has backup doctor assistance.",
+			"Hospital Management Web App which stores Patients's records, Make appointments and has backup AI doctor assistance.",
 		gitlink: 'https://github.com/DeepikaDudala/hackathon24-backend',
 	},
 	{
@@ -107,57 +107,70 @@ const ProjectsPage = () => {
 	});
 
 	return (
-		<Container className="mt-5 project-page">
-			<Row className="align-items-center my-5">
-				<Col lg={6}>
-					<h1 className="text-2xl font-bold heading-text lh-base">
-						Personal{' '}
-						<span
-							className="rounded-5 p-2 text-white"
-							style={{ backgroundColor: '#006b7b' }}
+		<div id="projects">
+			<Container className="mt-5 project-page">
+				<Row className="align-items-center my-5">
+					<Col lg={6}>
+						<h1 className="text-2xl font-bold heading-text lh-base">
+							Personal{' '}
+							<span
+								className="rounded-5 p-2 text-white"
+								style={{ backgroundColor: '#006b7b' }}
+							>
+								Projects
+							</span>
+						</h1>
+						<p className="ms-5">
+							Here are some of the projects I have worked on. Click on the links to
+							view the Live and GitHub Repository.
+						</p>
+					</Col>
+					<Col lg={4} className="text-center mt-3">
+						<Button
+							variant="outline-secondary"
+							onClick={handlePrevPage}
+							className="me-2"
+							disabled={currentPage === 0}
 						>
-							Projects
-						</span>
-					</h1>
-					<p className="ms-5">
-						Here are some of the projects I have worked on. Click on the links to view
-						the Live and GitHub Repository.
-					</p>
-				</Col>
-				<Col lg={4} className="text-center mt-3">
-					<Button
-						variant="outline-secondary"
-						onClick={handlePrevPage}
-						className="me-2"
-						disabled={currentPage === 0}
-					>
-						<FaArrowLeft style={{ color: 'black' }} />
-					</Button>
-					<Button
-						variant="outline-secondary"
-						onClick={handleNextPage}
-						disabled={currentPage >= Math.ceil(projects.length / itemsPerPage) - 1}
-					>
-						<FaArrowRight style={{ color: 'black' }} />
-					</Button>
-				</Col>
-			</Row>
-			<animated.div style={slideProps}>
-				<Row className="justify-content-center">
-					{selectedProjects.map((project, index) => (
-						<Col key={index} sm={5} lg={5.5} className="mb-4">
-							<ProjectCard
-								icon={project.icon}
-								title={project.title}
-								description={project.description}
-								gitlink={project.gitlink}
-								livelink={project.livelink}
-							/>
-						</Col>
-					))}
+							<FaArrowLeft style={{ color: 'black' }} />
+						</Button>
+						<Button
+							variant="outline-secondary"
+							onClick={handleNextPage}
+							disabled={currentPage >= Math.ceil(projects.length / itemsPerPage) - 1}
+						>
+							<FaArrowRight style={{ color: 'black' }} />
+						</Button>
+					</Col>
 				</Row>
-			</animated.div>
-		</Container>
+				<animated.div style={slideProps}>
+					<Row className="justify-content-center">
+						{selectedProjects.map((project, index) => (
+							<Col key={index} sm={5} lg={5.5} className="mb-4">
+								<ProjectCard
+									icon={project.icon}
+									title={project.title}
+									description={project.description}
+									gitlink={project.gitlink}
+									livelink={project.livelink}
+								/>
+							</Col>
+						))}
+					</Row>
+				</animated.div>
+			</Container>
+			<br />
+			<br />
+			<div className="custom-hr m-5">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
 	);
 };
 

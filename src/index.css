@@ -1,9 +1,29 @@
 /* Overall page style */
 body {
-	background-color: #c0eef86e; /* Light blue */
+	background-color: #c0eef856; /* Light blue */
 	/* background-color: #ffd82919; Yellow */
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+::-webkit-scrollbar {
+	width: 5px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+	background: #006b7b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #ffd929;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #006b7b;
+}
 /* HomePage container */
 .home-page {
 	position: relative;
