@@ -20,7 +20,7 @@ function InternshipPage() {
 					</Col>
 				</Row>
 				<Row className=" align-content-between lh-lg">
-					<Col lg={7} className=" ">
+					<Col lg={7} md={7}>
 						<h1 className="text-xl fw-bold ms-5">FullStack Developer Intern</h1>
 						<h1 className=" ms-5 my-2  text-danger-emphasis">March, 2024 - Present</h1>
 
@@ -44,6 +44,7 @@ function InternshipPage() {
 					<Col
 						lg={3}
 						xs={9}
+						md={4}
 						className="ms-5 justify-content-center rounded align-items-center"
 					>
 						<img
