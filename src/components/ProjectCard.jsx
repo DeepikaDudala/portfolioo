@@ -17,12 +17,24 @@ const ProjectCard = ({ icon, title, description, gitlink, livelink }) => {
 
 						<div className="m-3">
 							{gitlink && (
-								<Button variant="dark" className="me-4 p-2">
+								<Button
+									variant="dark"
+									className="me-4 p-2"
+									onClick={() => (window.location.href = gitlink)}
+								>
 									Github
 								</Button>
 							)}
 
-							{livelink && <Button variant="outline-dark p-2">Live </Button>}
+							{livelink && (
+								<Button
+									variant="outline-dark"
+									className="p-2"
+									onClick={() => (window.location.href = livelink)}
+								>
+									Live
+								</Button>
+							)}
 						</div>
 					</Col>
 				</Row>
