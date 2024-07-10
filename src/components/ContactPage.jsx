@@ -68,10 +68,10 @@ const ContactPage = () => {
 					</Col>
 				</Row>
 				<Row className="mb-5">
-					<Col lg={6}>
+					<Col lg={6} md={6}>
 						<div className="contact-picture mt-2"></div>
 					</Col>
-					<Col lg={4}>
+					<Col lg={4} md={5}>
 						{alertInfo.display && (
 							<div
 								className={`alert alert-${alertInfo.type} alert-dismissible my-3`}
