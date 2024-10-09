@@ -48,7 +48,7 @@ function InternshipPage() {
 						className="ms-5 justify-content-center rounded align-items-center"
 					>
 						<img
-							src="https://media.licdn.com/dms/image/D560BAQHg7pZyuzGP7Q/company-logo_200_200/0/1719258032621/eficens_it_logo?e=2147483647&v=beta&t=_jxP1Nwle-nqQY5d-k_byyEhOHgtTb2vKm6WQwFzzZU"
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXRM0zKc1Zvyg2Dn_igJM4tcEPpItEs8IjQ&usqp=CAU"
 							alt={` icon`}
 							className="rounded-5 w-25 justify-content-center my-5 ms-5 "
 						/>
