@@ -10,11 +10,12 @@ import poet from '../assets/poet.png';
 import tenzie from '../assets/tenzie.png';
 import facebook from '../assets/facebook.png';
 import doc2 from '../assets/doc2.jpeg';
+import portfolio from '../assets/portfolio.png';
 
 const projects = [
 	{
 		icon: testboard,
-		title: 'Test Board',
+		title: 'Test Board👩‍🏫',
 		description:
 			'Facilitated secure student authentication, test-taking, and teacher administrative capabilities for a managing and student records.',
 		livelink: 'https://testboard.onrender.com',
@@ -22,14 +23,30 @@ const projects = [
 	},
 	{
 		icon: hms,
-		title: 'HealthEase',
+		title: 'HealthEase🧑‍⚕️',
 		description:
 			"Hospital Management Web App which stores Patients's records, Make appointments and has backup AI doctor assistance.",
 		gitlink: 'https://github.com/DeepikaDudala/hackathon24-backend',
 	},
 	{
+		icon: tenzie,
+		title: 'Tenzies🎲',
+		description:
+			'Tenzie is a dice game that is easy and fun to play. It is developed using React.js and Bootstrap.',
+		gitlink: 'https://github.com/DeepikaDudala/tenzies-game',
+		livelink: 'https://deepikadudala.github.io/tenzies-game/',
+	},
+	{
+		icon: portfolio,
+		title: 'My Portfolio😉',
+		description:
+			'I Designed and Developed my Portfolio using React.js, Tailwind. It is a responsive web application.',
+		gitlink: 'https://github.com/DeepikaDudala/portfolioo',
+		livelink: 'https://sahithiportfolio.onrender.com',
+	},
+	{
 		icon: bl,
-		title: 'My Book List',
+		title: 'My Book List📚',
 		description:
 			'A web application to manage your personal book collection, ensuring a well-organized list with essential details.',
 		gitlink: 'https://github.com/DeepikaDudala/MyBookList',
@@ -37,29 +54,22 @@ const projects = [
 	},
 	{
 		icon: poet,
-		title: 'Poet',
+		title: 'Poet📝',
 		description:
 			'Langchain App to write and share poems, stories, and quotes with the world with interface streamlit & GenAI capabilities.',
 		gitlink: 'https://github.com/DeepikaDudala/chatbot',
 	},
-	{
-		icon: tenzie,
-		title: 'Tenzies',
-		description:
-			'Tenzie is a dice game that is easy and fun to play. It is developed using React.js and Bootstrap.',
-		gitlink: 'https://github.com/DeepikaDudala/tenzies-game',
-		livelink: 'https://deepikadudala.github.io/tenzies-game/',
-	},
+	
 	{
 		icon: facebook,
-		title: 'Facebook Clone',
+		title: 'Facebook Clone📱',
 		description:
 			'A Facebook clone with features like Login, SignUp. It is developed using React.js.',
 		gitlink: 'https://github.com/DeepikaDudala/react-facebook',
 	},
 	{
 		icon: doc2,
-		title: 'Docx2PDF',
+		title: 'Docx2PDF📄',
 		description:
 			'Converts docx files to pdf files locally in folder. It is developed using Python and JS.',
 		gitlink: 'https://github.com/DeepikaDudala/docx2pdf',

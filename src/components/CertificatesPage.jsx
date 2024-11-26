@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import java from '../assets/java.png';
+import fullstack from '../assets/fullstack.png';
 import ciscopy from '../assets/ciscopy.png';
 import linux from '../assets/linux.png';
 import genai from '../assets/genai.png';
@@ -8,7 +9,7 @@ import genai from '../assets/genai.png';
 const certificates = [
 	{
 		id: 1,
-		image: 'https://media.licdn.com/dms/image/D5622AQFPLshmxu9vuA/feedshare-shrink_1280/0/1710267216426?e=1722470400&v=beta&t=zbmNiQiERNd15kWSNi4KfqGWSk-njTLfkER9-pEbbHI',
+		image: fullstack,
 	},
 	{
 		id: 2,
