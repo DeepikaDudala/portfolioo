@@ -29,6 +29,14 @@ function EndPage() {
 							<FaLinkedin size={24} />
 						</a>
 					</Col>
+					<Col xs="auto">
+						<a
+							href="https://github.com/DeepikaDudala"
+							className="text-white"
+						>
+							<FaGithub size={24} />
+						</a>
+					</Col>
 				</Row>
 				<Row className="justify-content-center">
 					<Col xs="auto" className="text-center text-white align-text-bottom">
