@@ -5,7 +5,7 @@ function BlackLine() {
 	return (
 		<div className="black-line mx-3 mt-lg-5 p-5 rounded-2">
 			<Row className="social-icons ">
-				<Col md={3} className="text-center">
+				<Col md={2} className="text-center">
 					<a
 						href="https://www.naukri.com/code360/profile/21K61A0538"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
@@ -13,7 +13,7 @@ function BlackLine() {
 						Coding Ninjas
 					</a>
 				</Col>
-				<Col md={3} className="text-center">
+				<Col md={2} className="text-center">
 					<a
 						href="https://www.linkedin.com/in/deepika-siva-sahithi-dudala/"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
@@ -22,7 +22,7 @@ function BlackLine() {
 					</a>
 				</Col>
 
-				<Col md={3} className="text-center">
+				<Col md={2} className="text-center">
 					<a
 						href="https://github.com/DeepikaDudala"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
@@ -30,7 +30,7 @@ function BlackLine() {
 						GitHub
 					</a>
 				</Col>
-				<Col md={3} className="text-center">
+				<Col md={2} className="text-center">
 					<a
 						href="https://www.codechef.com/users/deepikadudala"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
@@ -38,7 +38,7 @@ function BlackLine() {
 						CodeChef
 					</a>
 				</Col>
-				<Col md={3} className="text-center">
+				<Col md={2} className="text-center">
 					<a
 						href="https://www.geeksforgeeks.org/user/deepikadudala/"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
@@ -46,7 +46,7 @@ function BlackLine() {
 						GeeksforGeeks
 					</a>
 				</Col>
-				<Col md={3} className="text-center">
+				<Col md={2} className="text-center">
 					<a
 						href="https://leetcode.com/u/Dudala_Deepika_Siva_Sahithi/"
 						className="text-white fs-5 fw-semibold no-underline hover:underline"
