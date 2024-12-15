@@ -38,6 +38,22 @@ function BlackLine() {
 						CodeChef
 					</a>
 				</Col>
+				<Col md={3} className="text-center">
+					<a
+						href="https://www.geeksforgeeks.org/user/deepikadudala/"
+						className="text-white fs-5 fw-semibold no-underline hover:underline"
+					>
+						GeeksforGeeks
+					</a>
+				</Col>
+				<Col md={3} className="text-center">
+					<a
+						href="https://leetcode.com/u/Dudala_Deepika_Siva_Sahithi/"
+						className="text-white fs-5 fw-semibold no-underline hover:underline"
+					>
+						LeetCode
+					</a>
+				</Col>
 			</Row>
 		</div>
 	);
